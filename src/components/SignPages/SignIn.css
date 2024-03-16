@@ -1,0 +1,50 @@
+.sign-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.sign {
+  width: 35%;
+  text-align: center;
+  padding: 40px 30px;
+  background-color: #a892ee;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  border: 3px solid #40005d;
+}
+
+.sign .title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #40005d;
+  margin-bottom: 30px;
+}
+
+.sign .input {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+.sign button {
+  width: 100%;
+  background-color: #40005d;
+  padding: 12px 0px;
+  font-size: 1.1rem;
+  margin-top: 24px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.sign .bottom {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+
+/* .sign button:hover {
+  background-color: rgba(168, 146, 238, 0.25);
+} */
