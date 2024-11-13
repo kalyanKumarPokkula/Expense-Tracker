@@ -4,12 +4,12 @@ import "./NewExpense.css";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import Alert from "@mui/material/Alert";
-import { URL } from "../../../../New-ExpenseTracker/src/config";
+import { URL } from "../../config";
 
-const NewExpense = props => {
+const NewExpense = (props) => {
   const navigator = useNavigate();
   const [success, setSuccess] = useState(false);
-  const addExpenseHandler = expensesData => {
+  const addExpenseHandler = (expensesData) => {
     async function addExpense() {
       try {
         let response = await axios.post(

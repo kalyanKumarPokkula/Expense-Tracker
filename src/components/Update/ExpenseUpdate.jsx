@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import ExpenseUpdateForm from "./ExpenseUpdateFrom";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
-import { URL } from "../../../../New-ExpenseTracker/src/config";
+import { URL } from "../../config";
 
 const ExpenseUpdate = () => {
   const { id } = useParams();
   const navigator = useNavigate();
-  const UpdateExpenseHandler = expense => {
+  const UpdateExpenseHandler = (expense) => {
     if (Object.keys(expense).length !== 0) {
       console.log(expense);
       async function updateExpense() {

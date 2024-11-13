@@ -43,9 +43,71 @@ npm install
 npm run dev
 ```
 
+## Backend
+
+This is a backend of the this application
+
+1. Clone the repository:
+
+```
+git clone https://github.com/kalyanKumarPokkula/Expense-Tracker-Backend.git
+```
+
+2. Navigate to the project directory:
+
+```
+cd Expense-Tracker-Backend
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Start the development server:
+
+```
+npm run dev
+```
+
 ## Usage
 
 To efficiently manage expenses, users must first create an account to access the ExpenseTracker. If a user doesn't have an account, they can easily register and create one. Once logged in, users can seamlessly add new expenses, specifying the date, month, and year of the expense, along with details such as the name and price. This streamlined process empowers users to maintain a comprehensive record of their expenditures and gain better control over their finances.
+
+## Screenshots
+
+### Homepage
+
+![Homepage Screenshot](pics/welcomewithoutsigninpage.png)
+
+### login Page
+
+![login Screenshot](pics/loginpage.png)
+
+### signup page
+
+![signup Screenshot](pics/signuppage.png)
+
+### OTP verfiy page
+
+![verfiy page](pics/otpverficiationpage.png)
+
+### success logged in welcome page
+
+![success logged in welcome page](pics/welcomeafterloginpage.png)
+
+### add new expenses page
+
+![add new expenses page](pics/addnewexpensepage.png)
+
+### All expenses page
+
+![All expenses page](pics/expensespage.png)
+
+### update expense page
+
+![update expense page](pics/updateexpensepage.png)
 
 ## File Structure
 

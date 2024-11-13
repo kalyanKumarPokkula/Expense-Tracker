@@ -1,7 +1,7 @@
 import "./Verify.css";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { URL } from "../../../../New-ExpenseTracker/src/config";
+import { URL } from "../../config";
 import { useNavigate } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -74,7 +74,7 @@ const VerifyEmail = ({ setUser }) => {
           <input
             type="text"
             value={otp}
-            onChange={e => {
+            onChange={(e) => {
               setOtp(e.target.value);
             }}
           />

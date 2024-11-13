@@ -5,9 +5,9 @@ import "../NewExpense/NewExpense.css";
 import "../../loading.css";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import { URL } from "../../../../New-ExpenseTracker/src/config";
+import { URL } from "../../config";
 
-const ExpenseUpdateForm = props => {
+const ExpenseUpdateForm = (props) => {
   const { id } = useParams();
   const [title, setTitle] = useState("");
   const [amount, setAmount] = useState("");
@@ -38,18 +38,18 @@ const ExpenseUpdateForm = props => {
     }
     expense();
   }, []);
-  const titleHandler = event => {
+  const titleHandler = (event) => {
     setTitle(event.target.value);
   };
 
-  const amountHandler = event => {
+  const amountHandler = (event) => {
     setAmount(event.target.value);
   };
-  const dataHandler = event => {
+  const dataHandler = (event) => {
     setDate(event.target.value);
   };
 
-  const submitHandler = event => {
+  const submitHandler = (event) => {
     event.preventDefault();
 
     const expenseData = {};

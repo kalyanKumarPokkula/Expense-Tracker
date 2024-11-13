@@ -5,7 +5,7 @@ import TextField from "@mui/material/TextField";
 import Alert from "@mui/material/Alert";
 
 import { useNavigate, Link } from "react-router-dom";
-import { URL } from "../../../../New-ExpenseTracker/src/config";
+import { URL } from "../../config";
 
 const SignUp = () => {
   const navigator = useNavigate();
@@ -66,7 +66,7 @@ const SignUp = () => {
             value={name}
             variant="filled"
             fullWidth={true}
-            onChange={e => {
+            onChange={(e) => {
               setIsValidMessage(null);
               setName(e.target.value);
             }}
@@ -81,7 +81,7 @@ const SignUp = () => {
             variant="filled"
             type={"email"}
             fullWidth={true}
-            onChange={e => {
+            onChange={(e) => {
               setIsValidMessage(null);
               setEmail(e.target.value);
             }}
@@ -96,7 +96,7 @@ const SignUp = () => {
             variant="filled"
             type={"password"}
             fullWidth={true}
-            onChange={e => {
+            onChange={(e) => {
               setIsValidMessage(null);
               setPassword(e.target.value);
             }}

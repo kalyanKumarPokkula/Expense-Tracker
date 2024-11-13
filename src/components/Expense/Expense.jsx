@@ -6,7 +6,7 @@ import ExpenseFilter from "./ExpenseFilter";
 import ExpenseChart from "./ExpenseChart";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { URL } from "../../../../New-ExpenseTracker/src/config";
+import { URL } from "../../config";
 
 function Expense(props) {
   const [expenseFilterByYear, setExpenseFilterByYear] = useState("2024");
@@ -38,11 +38,11 @@ function Expense(props) {
     getExpenses();
   }, [expenseFilterByYear, expenseFilterByCategory]);
 
-  const expenseFilterByYearHandler = entertedExpenseFilterYear => {
+  const expenseFilterByYearHandler = (entertedExpenseFilterYear) => {
     setExpenseFilterByYear(entertedExpenseFilterYear);
   };
 
-  const expenseFilterByCategoryHandler = entertedExpenseFilterCategory => {
+  const expenseFilterByCategoryHandler = (entertedExpenseFilterCategory) => {
     setExpenseFilterByCategory(entertedExpenseFilterCategory);
   };
 
@@ -69,7 +69,7 @@ function Expense(props) {
       }
     }, 1000);
 
-    let newExpense = expenses.filter(expense => {
+    let newExpense = expenses.filter((expense) => {
       return expense._id !== expenseId;
     });
 
@@ -97,7 +97,7 @@ function Expense(props) {
             <h2 style={{ marginTop: "20px" }}>No expenses are found.</h2>
           )}
           {expenses.length > 0 &&
-            expenses.map(expense => (
+            expenses.map((expense) => (
               <ExpenseItem
                 key={expense._id}
                 id={expense._id}
