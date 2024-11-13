@@ -79,35 +79,35 @@ To efficiently manage expenses, users must first create an account to access the
 
 ### Homepage
 
-![Homepage Screenshot](pics/welcomewithoutsigninpage.png)
+![Homepage Screenshot](Pics/welcomewithoutsigninpage.png)
 
 ### login Page
 
-![login Screenshot](pics/loginpage.png)
+![login Screenshot](Pics/loginpage.png)
 
 ### signup page
 
-![signup Screenshot](pics/signuppage.png)
+![signup Screenshot](Pics/signuppage.png)
 
 ### OTP verfiy page
 
-![verfiy page](pics/otpverficiationpage.png)
+![verfiy page](Pics/otpverficiationpage.png)
 
 ### success logged in welcome page
 
-![success logged in welcome page](pics/welcomeafterloginpage.png)
+![success logged in welcome page](Pics/welcomeafterloginpage.png)
 
 ### add new expenses page
 
-![add new expenses page](pics/addnewexpensepage.png)
+![add new expenses page](Pics/addnewexpensepage.png)
 
 ### All expenses page
 
-![All expenses page](pics/expensespage.png)
+![All expenses page](Pics/expensespage.png)
 
 ### update expense page
 
-![update expense page](pics/updateexpensepage.png)
+![update expense page](Pics/updateexpensepage.png)
 
 ## File Structure
 
